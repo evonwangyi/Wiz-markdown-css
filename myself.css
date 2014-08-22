@@ -509,22 +509,28 @@ pre.prettyprint.linenums {
   box-shadow: 40px 0 0 #FBFBFC inset, 41px 0 0 #ECECF0 inset; }
 
 /* Specify class=linenums on a pre to get line numbering */
-ol.linenums {
-  color: #23A8D1;
-  margin: 0 0 0 40px; }
+pre.prettyprint.linenums ol.linenums {
+  color: #1E347B;
+  padding-left: 30px !important;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
-ol.linenums li {
+pre.prettyprint.linenums ol.linenums li {
   color: #BEBEC5;
   line-height: 18px;
-  padding-left: 12px;
-   }
+  padding-left: 12px !important; 
+}
 
-li.L0,
-li.L1,
-li.L2,
-li.L3,
-li.L5,
-li.L6,
-li.L7,
-li.L8 {
-  list-style-type: normal; }
+pre.prettyprint.linenums ol.linenums li.L0,
+pre.prettyprint.linenums ol.linenums li.L1,
+pre.prettyprint.linenums ol.linenums li.L2,
+pre.prettyprint.linenums ol.linenums li.L3,
+pre.prettyprint.linenums ol.linenums li.L4,
+pre.prettyprint.linenums ol.linenums li.L5,
+pre.prettyprint.linenums ol.linenums li.L6,
+pre.prettyprint.linenums ol.linenums li.L7,
+pre.prettyprint.linenums ol.linenums li.L8,
+pre.prettyprint.linenums ol.linenums li.L9 {
+  list-style-type: decimal !important; 
+}
